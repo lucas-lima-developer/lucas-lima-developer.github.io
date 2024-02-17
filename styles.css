@@ -13,15 +13,40 @@ body {
     padding-top: 4rem;
 }
 
-section {
-    display: block;
+.main-header {
+    margin-bottom: 4rem;
 }
 
-.main-header {
+.main-name h1 {
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.main-nav {
     
 }
 
+.main-nav__itens {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
 
-h1, h2 {
-    font-weight: 900;
+.main-nav__item {
+    display: inline-block;
+    padding-right: 8px;
+    border-right: 1px dotted #828C79;
+} 
+
+.main-nav__last-item {
+    border-right: 0;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #828C79;
+}
+
+.main-nav__item a:hover {
+    text-decoration: underline;
 }
