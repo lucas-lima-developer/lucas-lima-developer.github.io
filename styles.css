@@ -50,3 +50,11 @@ body {
 .main-nav__item a:hover {
     text-decoration: underline;
 }
+
+section {
+    margin-bottom: 64px;
+}
+
+section h2 {
+    font-weight: 600;
+}
