@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -51,8 +53,34 @@ body {
     text-decoration: underline;
 }
 
+.about-me ul {
+    list-style: none;
+}
+
+.about-me ul li {
+    margin-bottom: 12px;
+}
+
+.about-me a {
+    text-decoration: none;
+    color: #828C79;
+}
+
+.about-me a:hover {
+    text-decoration: underline;
+}
+
+.timeline {
+    border-left: 2px solid #828C79;
+}
+
+.timeline-box {
+    padding-left: 27px;
+    margin-bottom: 30px;
+}
+
 section {
-    margin-bottom: 64px;
+    margin-bottom: 60px;
 }
 
 section h2 {
